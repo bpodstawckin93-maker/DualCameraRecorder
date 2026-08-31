@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dual Camera Recorder</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="pause_recording">Pause</string>
+    <string name="resume_recording">Resume</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="flip_camera">Flip Camera</string>
+    <string name="recording_permission_denied">Recording permission denied</string>
+    <string name="camera_permission_denied">Camera permission denied</string>
+    <string name="recording_in_progress">Recording...</string>
+    <string name="pip_mode">PiP Mode</string>
+    <string name="full_view">Full View</string>
+</resources>
