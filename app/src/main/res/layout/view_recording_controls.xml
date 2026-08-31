@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -9,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp"
+        android:padding="8dp"
         android:background="@color/gray_500">
 
         <LinearLayout
@@ -28,13 +27,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Start Recording"
-                    android:layout_margin="4dp"
+                    android:textSize="12sp"
+                    android:layout_margin="2dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
                     app:cornerRadius="20dp" />
 
                 <View
                     android:id="@+id/recording_indicator"
-                    android:layout_width="12dp"
-                    android:layout_height="12dp"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
                     android:background="@drawable/recording_indicator"
                     android:layout_gravity="top|end"
                     android:layout_margin="4dp"
@@ -46,7 +50,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Switch"
-                android:layout_margin="4dp"
+                android:textSize="12sp"
+                android:layout_margin="2dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
                 app:cornerRadius="20dp" />
 
             <com.google.android.material.button.MaterialButton
@@ -54,7 +63,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Pause"
-                android:layout_margin="4dp"
+                android:textSize="12sp"
+                android:layout_margin="2dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
                 android:enabled="false"
                 app:cornerRadius="20dp" />
 
@@ -63,7 +77,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="PiP"
-                android:layout_margin="4dp"
+                android:textSize="12sp"
+                android:layout_margin="2dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
                 app:cornerRadius="20dp" />
         </LinearLayout>
 
@@ -73,7 +92,7 @@
             android:layout_height="wrap_content"
             android:text="00:00:00"
             android:textAlignment="center"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textColor="@color/white"
             android:fontFamily="monospace" />
     </LinearLayout>

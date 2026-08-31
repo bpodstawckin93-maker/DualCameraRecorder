@@ -10,4 +10,6 @@
     <string name="recording_permission_denied">Recording permission denied</string>
     <string name="camera_permission_denied">Camera permission denied</string>
     <string name="recording_in_progress">Recording...</string>
+    <string name="pip_mode">PiP Mode</string>
+    <string name="full_view">Full View</string>
 </resources>
